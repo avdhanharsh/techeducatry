@@ -360,12 +360,13 @@
                     <img src="images/contact.png" alt="">
                 </div>
                 <div class="contact-right">
-                    <form action="https://formspree.io/f/mrgwdeqy" method="post">
-                        <input type="text" name="name" placeholder="name" required><br>
-                        <input type="email" name="email" placeholder="email" required><br>
-                        <textarea name="message" id="" cols="30" rows="8" placeholder="message"></textarea><br>
-                        <button class="contact-but">Submit</button>
-                    </form>
+                <form action="submit_form.php" method="post">
+                    <input type="text" name="name" placeholder="name" required><br>
+                    <input type="email" name="email" placeholder="email" required><br>
+                    <textarea name="message" cols="30" rows="8" placeholder="message"></textarea><br>
+                    <button class="contact-but">Submit</button>
+                </form>
+
                 </div>
             </div>
             <div class="contact-details">
