@@ -1,8 +1,8 @@
 <?php
-$serverName = "your-server.database.windows.net";
-$database = "ContactFormDB";
-$username = "your-username";
-$password = "your-password";
+$serverName = "techeduca-server.database.windows.net,1433";
+$database = "techeduca-database";
+$username = "techeduca-server-admin";
+$password = "harsh@111";
 
 // Create connection
 $conn = new PDO("sqlsrv:server=$serverName;Database=$database", $username, $password);
